@@ -35,11 +35,11 @@ public class RaceState : State
         players = (prevState as InitState).players;
         points = players.Count;
 
-        TextAsset returnAsset = Resources.Load("Data/Return") as TextAsset;
-        TextAsset thingAssets = Resources.Load("Data/Thing") as TextAsset;
+        string returnPath = System.IO.Path.Combine(Application.streamingAssetsPath, "Data/Return");
+        string thingPath = System.IO.Path.Combine(Application.streamingAssetsPath, "Data/Thing");
 
-        returns = returnAsset.text.Split('\n');
-        things = thingAssets.text.Split('\n');
+        returns = System.IO.File.ReadAllText(returnPath+".txt").Split('\n');
+        things = System.IO.File.ReadAllText(thingPath+".txt").Split('\n');
 
         GetStateRelevantObjectsFromScene();
         thingText = SceneObjects["Thing"].GetComponentInChildren<Text>() as Text;
