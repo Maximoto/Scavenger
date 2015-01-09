@@ -12,6 +12,8 @@ public class RaceState : State
 
     string[] returns;
     string[] things;
+    List<string> remainingReturns;
+    List<string> remainingThings;
 
     Text thingText;
     Text returnText;
@@ -40,6 +42,8 @@ public class RaceState : State
 
         returns = System.IO.File.ReadAllText(returnPath+".txt").Split('\n');
         things = System.IO.File.ReadAllText(thingPath+".txt").Split('\n');
+        remainingReturns = new List<string>(returns);
+        remainingThings = new List<string>(things);
 
         GetStateRelevantObjectsFromScene();
         thingText = SceneObjects["Thing"].GetComponentInChildren<Text>() as Text;
@@ -67,10 +71,26 @@ public class RaceState : State
         updateThing = true;
         yield return new WaitForSeconds(2.0f);
         updateThing = false;
+        int remove = Random.Range(0, remainingThings.Count);
+        thingText.text = remainingThings[remove];
+        remainingThings.RemoveAt(remove);
+        if(remainingThings.Count == 0)
+        {
+            remainingThings = new List<string>(things);
+        }
+
         yield return new WaitForSeconds(2.0f);
+
         updateReturn = true;
         yield return new WaitForSeconds(2.0f);
         updateReturn = false;
+        remove = Random.Range(0, remainingReturns.Count);
+        returnText.text = remainingReturns[remove];
+        remainingReturns.RemoveAt(remove);
+        if(remainingReturns.Count == 0)
+        {
+            remainingReturns = new List<string>(returns);
+        }
         
         foreach(Player p in players.Values)
         {
@@ -87,11 +107,11 @@ public class RaceState : State
     {
         if(updateThing)
         {
-            thingText.text = things[Random.Range(0, things.Length)];
+            thingText.text = remainingThings[Random.Range(0, remainingThings.Count)];
         }
         if(updateReturn)
         {
-            returnText.text = returns[Random.Range(0, returns.Length)];
+            returnText.text = remainingReturns[Random.Range(0, remainingReturns.Count)];
         }
     }
 
