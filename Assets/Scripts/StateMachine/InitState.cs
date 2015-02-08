@@ -38,13 +38,17 @@ public class InitState : State
         }
         else 
         {
-            players[e.owner.name] = new Player();
-            players[e.owner.name].animal = e.owner.name;
-            e.owner.GetComponent<Button>().interactable = false;
-            if(players.Count > 1)
-            { 
-                readyButton.interactable = true;
+            if (players.ContainsKey(e.owner.name))
+            {
+                players.Remove(e.owner.name);
             }
+            else
+            {
+                players[e.owner.name] = new Player();
+                players[e.owner.name].Initialize(e.owner);
+                players[e.owner.name].animal = e.owner.name;
+            }
+            readyButton.interactable = players.Count > 0;
         }
     }
 }

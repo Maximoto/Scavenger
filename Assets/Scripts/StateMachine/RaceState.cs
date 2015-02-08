@@ -57,7 +57,7 @@ public class RaceState : State
         int y = 0;
         foreach (Player player in players.Values)
         {
-            player.Initialize(SceneObjects[player.animal]);
+            player.EnableButton(SceneObjects[player.animal]);
             player.button.interactable = false;
             y += 50;
         }
@@ -132,7 +132,6 @@ public class RaceState : State
 
         Player p = players[e.data];
         p.score += points;
-        p.text.text = p.score.ToString();
         p.button.interactable = false;
 
         --points;

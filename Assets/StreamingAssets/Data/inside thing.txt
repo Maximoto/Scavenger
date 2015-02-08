@@ -1,0 +1,151 @@
+Mostly Black
+Mostly Blue
+Mostly Brown
+Mostly Gray
+Mostly Green
+Mostly Orange
+Mostly Pink
+Mostly Purple
+Mostly Red
+Mostly White
+Mostly Yellow
+Black and White
+Blue and Black
+Blue and Green
+Blue and Red
+Blue and White
+Blue and Yellow
+Green and Black
+Green and White
+Red and Black
+Red and Green
+Red and White
+Red and Yellow
+Yellow and Black
+Yellow and Green
+Yellow and White
+Awesome
+Beautiful
+Bright
+Bumpy
+Cloth
+Cold
+Colorful
+Cute
+Dark
+Electronic
+Fast
+Flat
+Fun
+Funny
+Fuzzy
+Great
+Hard
+Healthy
+Heavy
+Helpful
+Hollow
+Large
+Light
+Long
+Loud
+Metal
+New
+Old
+Paper
+Plastic
+Pointy
+Quiet
+Rough
+Round
+Scary
+Shiny
+Short
+Silly
+Simple
+Slow
+Small
+Smart
+Smooth
+Soft
+Sparkly
+Square
+Strange
+Stretchy
+Strong
+Tall
+Thick
+Thin
+Tough
+Triangular
+Warm
+Weird
+With Letters On It
+With Numbers On It
+Wooden
+You Can Eat
+You Can Play With
+You Can Roll
+You Can Spin
+You Can Wear
+You Like
+Yucky
+Yummy
+Starting With 'A'
+Starting With 'B'
+Starting With 'C'
+Starting With 'Ch'
+Starting With 'D'
+Starting With 'F'
+Starting With 'G'
+Starting With 'H'
+Starting With 'L'
+Starting With 'M'
+Starting With 'N'
+Starting With 'P'
+Starting With 'R'
+Starting With 'S'
+Starting With 'Sh'
+Starting With 'T'
+Starting With 'Th'
+Starting With 'W'
+With an 'A' On It
+With a 'B' On It
+With a 'C' On It
+With a 'D' On It
+With an 'E' On It
+With an 'F' On It
+With a 'G' On It
+With an 'H' On It
+With an 'I' On It
+With a 'J' On It
+With a 'K' On It
+With an 'L' On It
+With an 'M' On It
+With an 'N' On It
+With an 'O' On It
+With a 'P' On It
+With a 'Q' On It
+With an 'R' On It
+With an 'S' On It
+With a 'T' On It
+With a 'U' On It
+With a 'V' On It
+With a 'W' On It
+With an 'X' On It
+With a 'Y' On It
+With a 'Z' On It
+With a '0' On It
+With a '1' On It
+With a '2' On It
+With a '3' On It
+With a '4' On It
+With a '5' On It
+With a '6' On It
+With a '7' On It
+With an '8' On It
+With a '9' On It
+That Starts With the First Letter Of Your First Name
+That Starts With the First Letter Of Your Middle Name
+That Starts With the First Letter Of Your Last Name
+

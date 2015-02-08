@@ -12,10 +12,14 @@ public class Player
     {
         text = go.GetComponentInChildren<Text>();
         button = go.GetComponent<Button>();
+    }
+
+    public void EnableButton(GameObject go)
+    {
+        Initialize(go);
         button.onClick.AddListener(() =>
         {
             EventManager.Fire(new GameEvent(go, animal));
         });
-        button.name = animal;
     }
 }

@@ -531,8 +531,8 @@ RectTransform:
   - {fileID: 200883524}
   - {fileID: 785499614}
   - {fileID: 777674231}
-  - {fileID: 2092225704}
   - {fileID: 910890412}
+  - {fileID: 2092225704}
   - {fileID: 1812004412}
   - {fileID: 1377339421}
   - {fileID: 1016084922}
@@ -586,7 +586,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 850298884}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_AnchorMin: {x: .377807677, y: .212907404}
   m_AnchorMax: {x: .45593828, y: .351786345}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -731,7 +731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: .97647059}
-  m_Sprite: {fileID: 21300000, guid: 05d2bbdf98b03b94a8297fbb46336907, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bf77fccafb1ca964fa65ebc9c20b7209, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1158,7 +1158,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 850298884}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_AnchorMin: {x: .587649941, y: .415986329}
   m_AnchorMax: {x: .665780663, y: .554865301}
   m_AnchoredPosition: {x: 0, y: -1.52587891e-05}
